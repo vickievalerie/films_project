@@ -30,7 +30,7 @@ class Search extends React.Component {
                         onChange={(e) => this.setState({ search: e.target.value })}
                         onKeyDown={this.handleKey}
                     />
-                    <button className="btn search-btn deep-purple accent-1 " 
+                    <button className="btn search-btn blue accent-1" 
                     onClick={() => 
                         this.props.searchMovies(this.state.search, this.state.type)}>
                     Search

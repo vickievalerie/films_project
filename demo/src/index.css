@@ -5,6 +5,12 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat"; 
+
+  /* background-image: url("../public/background2.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 
 .content {
@@ -26,3 +32,10 @@ body {
 label:not(:last-child) {
   margin-right: 1rem;
 }
+
+@font-face {
+  font-family: "Montserrat"; 
+  src: url("../fonts/montserrat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
